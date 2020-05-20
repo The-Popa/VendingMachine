@@ -23,7 +23,7 @@ public class VendingMachine implements VendingMachineImpl {
 
     }
     public void stockMachine() {
-        machineContent[0] = new Drinks("Coca Cola", 18, 145);
+        machineContent[0] = new Drinks("Coca Cola", 15, 145);
         machineContent[1] = new Drinks("Carbonated water", 18, 42);
         machineContent[2] = new Fruits("Orange", 10, 120);
         machineContent[3] = new Fruits("Banana", 30, 180);
